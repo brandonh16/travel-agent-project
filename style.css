@@ -1,0 +1,132 @@
+
+/* All Pages */
+body{
+text-align: center;
+/* whole body on all pages becomes Flexbox */
+display: flex;
+/* makes it so it follows in a column rather than row */
+flex-direction: column;
+/* displays on 100% of the page view */
+min-height: 100vh;
+}
+
+.main-body{
+/* causes the main body div to take up the rest of the height left empty */
+flex-grow: 1;
+}
+
+.navbar{
+background-color: rgb(41, 234, 255);
+height: 50px;
+display: flex;
+}
+
+.home-page-link{
+width: 50%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.page-links{
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.footer{
+font-size: 20px;
+background-color: rgb(41, 234, 255);
+height: 50px;
+width: 100%;
+position: relative;
+bottom: 0;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.heading{
+font-size: 25px;
+}
+
+/* Home Page */
+#travel-agent{
+height: 35%;
+display: flex;
+justify-content: space-around;
+}
+
+#home-text{
+display: flex;
+justify-content: space-around;
+font-family: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');;
+}
+
+#open-paragraph{
+width: 45%;
+}
+
+/* Greece Page */
+#greek-building{
+width: 30%;
+}
+
+#greek-temple{
+width: 30%;
+}
+
+#greek-beach{
+width: 30%;
+}
+
+#greece-text{
+display: flex;
+justify-content: space-around;
+}
+
+#describe-greece{
+width: 45%;
+font-size: 20px;
+}
+
+/* Japan Page */
+#japan-city{
+width: 30%;
+}
+
+#japan-temple{
+width: 30%;
+}
+
+#japan-view{
+width: 30%;
+}
+
+#japan-text{
+display: flex;
+justify-content: space-around;
+}
+
+#describe-japan{
+width: 45%;
+font-size: 20px;
+}
+
+/* Table Page */
+#open-times, th, td{
+border: 2px black solid;
+}
+
+@media screen and (max-width:430px){
+body{
+background-color: pink;
+}
+
+.navbar{
+width: 100vw;
+}
+
+}
