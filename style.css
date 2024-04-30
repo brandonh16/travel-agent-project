@@ -53,10 +53,14 @@ font-size: 25px;
 }
 
 /* Home Page */
-#travel-agent{
-height: 35%;
+#home-image{
 display: flex;
-justify-content: space-around;
+justify-content: center;
+}
+
+#travel-agent{
+width: 80%;
+height: auto;
 }
 
 #home-text{
@@ -120,13 +124,28 @@ font-size: 20px;
 border: 2px black solid;
 }
 
-@media screen and (max-width:430px){
-body{
-background-color: pink;
+.box-holder{
+background-color: aquamarine;
+display: flex;
+justify-content: space-between;
 }
 
-.navbar{
-width: 100vw;
+.box{
+width: 40%;
+height: 100px;
+border: 2px red solid;
+}
+
+@media screen and (max-width:800px){
+
+.page-links{
+display: flex;
+flex-wrap: wrap;
+}
+
+.box-holder{
+display: flex;
+flex-wrap: wrap;
 }
 
 }
