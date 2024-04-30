@@ -124,26 +124,9 @@ font-size: 20px;
 border: 2px black solid;
 }
 
-.box-holder{
-background-color: aquamarine;
-display: flex;
-justify-content: space-between;
-}
-
-.box{
-width: 40%;
-height: 100px;
-border: 2px red solid;
-}
-
 @media screen and (max-width:800px){
 
 .page-links{
-display: flex;
-flex-wrap: wrap;
-}
-
-.box-holder{
 display: flex;
 flex-wrap: wrap;
 }
